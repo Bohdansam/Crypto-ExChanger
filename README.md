@@ -1,4 +1,4 @@
-#Crypto ExChanger website
+Crypto ExChanger website
 
 Made from Bohdan Samarin
 Stack:
