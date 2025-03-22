@@ -1,6 +1,6 @@
 # Crypto ExChanger website
 
-**Made from Bohdan Samarin**
+**Made by Bohdan Samarin**
 
 ## Stack:
 - Html
