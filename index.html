@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="first-container">
+        <header class="header">
+            <div class="header_logo">
+                <div class="logo">Crypto</div>
+            </div>
+
+            <!-- Меню для мобильных устройств -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+            <nav class="nav-links">
+                <a href="#second-container">Buy / Sell</a>
+                <a href="#third-container">Grow</a>
+                <a href="#adaptive-container">Markets</a>
+                <a href="#chart">Business</a>
+                <a href="#five-container">Support</a>
+
+                <div class="header_buttons">
+                    <button>Sign in</button>
+                    <button>Sign up</button>
+                </div>
+            </nav>
+        </header>
+
+        <div class="main">
+            <h1>We make crypto<br> clear and simple</h1>
+            <button class="button">Get Started</button>
+        </div>
+    </div>
+
+    <div id="second-container" class="second-container">
+        <div class="card">
+            <img src="createLogo.png">
+            <div class="card-title">Create</div>
+            <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            <a href="#" class="card-link">Get Started →</a>
+        </div>
+        <div class="card">
+            <img src="loginLogo.png">
+            <div class="card-title">Login</div>
+            <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            <a href="#" class="card-link">Find an ATM →</a>
+        </div>
+        <div class="card">
+            <img src="manageLogo.png">
+            <div class="card-title">Manage</div>
+            <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            <a href="#" class="card-link">Download the App →</a>
+        </div>
+    </div>
+
+    <div id="third-container" class="third-container">
+        <h1>A crypto mining platform that<br> invests in you</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button>Get Started</button>
+    </div>
+
+    <div id="adaptive-container" class="adaptive-container">
+        <div class="left-section">
+            <img src="bck4.png" alt="Illustration" class="image">
+        </div>
+        <div class="right-section">
+            <h1 class="title">24/7 access to full<br> service customer support</h1>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="button">Get Started</button>
+        </div>
+    </div>
+
+    <div id="chart" class="chart">
+        <h2>Exchange</h2>
+        <div class="content">
+            <div class="chart-container">
+                <p id="result" class="result-text"></p>
+                <canvas id="priceChart"></canvas>
+            </div>
+            <div class="user-input cardInput">
+                <input type="number" id="amount" placeholder="Enter amount" class="input-field">
+                <div class="select-wrapper">
+                    <select id="from" class="select-field">
+                        <option value="BTC">Bitcoin (BTC)</option>
+                        <option value="ETH">Ethereum (ETH)</option>
+                        <option value="USDT">Tether (USDT)</option>
+                        <option value="BUSD">Binance USD (BUSD)</option>
+                    </select>
+                </div>
+                <div class="select-wrapper">
+                    <select id="to" class="select-field">
+                        <option value="BTC">Bitcoin (BTC)</option>
+                        <option value="ETH">Ethereum (ETH)</option>
+                        <option value="USDT">Tether (USDT)</option>
+                        <option value="BUSD">Binance USD (BUSD)</option>
+                    </select>
+                </div>
+                <div class="select-wrapper">
+                    <select id="period" class="select-field">
+                        <option value="24h">24 Hours</option>
+                        <option value="3d">3 Days</option>
+                        <option value="7d">7 Days</option>
+                    </select>
+                </div>
+                <button class="convert-btn" onclick="convert()">Convert</button>
+            </div>
+        </div>
+    </div>
+    
+    <div id="five-container" class="five-container">
+        <div class="five-right-section">
+            <img src="five.png" alt="Illustration" class="image">
+        </div>
+        <div class="five-left-section">
+            <h1 class="title">Take your first step into safe, secure crypto investing</h1>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="button">Get Started</button>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div id="footer-left">
+            <p>CoinFlip, the world’s leading bitcoin ATM operator, makes it easy to buy and sell bitcoin.</p>
+            <div class="input-box">
+                <input type="email" placeholder="Email Address">
+                <span class="arrow">→</span>
+            </div>
+            <p class="copyright">© Bohdan Samarin</p>
+        </div>
+        <div id="footer-right">
+            <div class="footer-column">
+                <h4>Company</h4>
+                <a href="#">About</a>
+                <a href="#">Careers</a>
+                <a href="#">Press</a>
+            </div>
+            <div class="footer-column">
+                <h4>Privacy & Terms</h4>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+            <div class="footer-column">
+                <h4>Contact</h4>
+                <a href="https://github.com/Bohdansam">Github</a>
+                <a href="https://www.linkedin.com/in/bohdan-samarin-889965353/">Linkedin</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html
