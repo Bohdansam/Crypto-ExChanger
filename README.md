@@ -1,8 +1,8 @@
 # Crypto ExChanger website
 
 **Made by Bohdan Samarin**
-[My LinkedIn](https://www.linkedin.com/in/bohdan-samarin-889965353/)
 
+[My LinkedIn](https://www.linkedin.com/in/bohdan-samarin-889965353/)
 [Project Link](https://crypto-website-opal.vercel.app/)
 
 
