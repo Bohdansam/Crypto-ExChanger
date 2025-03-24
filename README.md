@@ -3,7 +3,7 @@
 **Made by Bohdan Samarin**
 
 [My LinkedIn](https://www.linkedin.com/in/bohdan-samarin-889965353/)
-[Project Link](https://crypto-website-opal.vercel.app/)
+[Project Link](https://exquisite-licorice-c686ea.netlify.app/)
 
 
 ## Stack:
